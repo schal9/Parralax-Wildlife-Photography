@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Parallax Website</title>
+  <meta name = "viewport" content = "width=device-width, initial-scale = 1.0" charset="utf-8">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+     <style type="text/css">
+
+
+    body,html{
+      height: 100%;
+      margin : 0;
+     font: 2rem " Lato",sans-serif;
+      color: #777;
+      background-color: rosybrown;
+    }
+    .bgimg-1,.bgimg-2,.bgimg-3{
+      position: relative;
+            background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    .bgimg-1{
+      background-image: url("images/click.jpg");
+      min-height: 80rem;
+    }
+    .bgimg-2{
+      background-image: url("images/white.jpg");
+      min-height: 70rem;
+    }
+    .bgimg-3{
+      background-image: url("images/peacock1.jpg");
+      min-height: 70rem;
+    }
+    .caption{
+      position: absolute;
+      left: 0;
+      top: 60%;
+      width: 100%;
+      text-align: center;
+      color: #000;
+    }
+    .caption span.border{
+      background-color: #333;
+      color: #fff;
+      padding: 1rem;
+      font-size:3rem;
+      letter-spacing: 1rem;
+    }
+    h3{
+      letter-spacing: 1rem;
+      text-transform: uppercase;
+      font: 3rem "Lato", sans-serif;
+      color: #111;
+    }
+    .fa {
+  font-size: 3rem;
+  text-align: center;
+  text-decoration: none;
+  margin: 1rem 1rem;
+}
+
+.fa:hover 
+{
+    opacity: 0.7;
+}
+    footer{
+    	background-color: rosybrown;
+    	text-align: center;
+    	color: white;
+    }
+    
+    @media only screen and (max-device-width: 10rem)
+    {
+      .bgimg-1,.bgimg-2,.bgimg-3{
+        background-attachment: scroll;
+      }
+    }
+    
+    /* Header Responsive Code*/
+    @media(max-width: 998rem)
+    {
+    	html{
+    		font-size: 55%;
+    	}
+    }
+    @media(max-width: 768rem)
+    {
+    	html{
+    		font-size: 45%;
+    	}
+    }
+</style>
+</head>
+<body>
+  <div class="bgimg-1">
+  </div>
+
+  <div style="color: #777; background-color: white;padding: 4rem 7rem;text-align: justify;">
+    <h3 style="text-align: center;">Wildlife Photography</h3>
+
+    <p>Hello Peeps! I am Schal, a Wildlife Photographer from UK. I love my work so much and I also assure you that after getting deeper into Wildlife Photography, you will adore it. Wildlife is the nature's beauty which is the natural beauty of God. Wildlife photography is a genre of photography concerned with documenting various forms of wildlife in their natural habitat. As well as requiring photography skills, wildlife photographers may need field craft skills. </p>
+  </div>
+ 
+  <div class="bgimg-2">
+    <div class="caption">
+      <span class="border" style="background-color: transparent;font-size: 3rem;color: black;">Beautiful Click </span>
+    </div>
+  </div>
+  <div style="position: relative;">
+    <div style="color: #ddd;background-color: #282E34;text-align: center;padding: 3rem 5rem;text-align: center;font-size: 2.5rem">
+      <strong style="color: plum">Check out our gallery of beautiful photography!<br><br>
+        <button onclick="document.location='Parralax-PhotoGallery.html'" style="padding: 1rem;border:0.6rem outset;border-color: plum" >View Gallery</button></strong> 
+  </div>
+</div>
+    <div class="bgimg-3">
+      <div class="caption">
+        <span class="border" style="background-color: transparent;font-size: 3rem;color: white;">Beauty Of God</span>
+      </div>
+    </div>
+    <div style="position: relative;">
+      <div style="color: #777;background-color: white;text-align: center;padding: 2rem 4rem;text-align: justify;">
+    <h3 style="text-align: center;">Photographers Are History Makers!</h3>
+
+</div>
+     
+</div></div>
+      <div class="bgimg-1">
+        </div>
+<footer>
+	
+  <h2>Get in touch! &#128515;</h2>
+  <p>Email/Contact Us for further information.</p>
+  <p>Email : <strong>contact@wildlife.mail</strong></p>
+  <p>Phone : <strong>(617) 655-556</strong></p>
+  <a href="#" class="fa fa-twitter"></a>
+  <a href="#" class="fa fa-instagram"></a>
+  <a href="#" class="fa fa-facebook"></a><br>
+
+  
+</footer><br>
+
+</body>
+</html>
